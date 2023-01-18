@@ -148,6 +148,10 @@ guiSection:NewButton("RAYX", "toggle with V (has premium users)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 
+guiSection:NewButton("PLUTO", "toggle with V", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
+
 
 
 
